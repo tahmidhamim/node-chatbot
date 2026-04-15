@@ -1,0 +1,25 @@
+{
+  "name": "node-chatbot",
+  "version": "1.0.0",
+  "description": "CLI chatbot with MongoDB Atlas and OpenRouter API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "chatbot",
+    "mongodb",
+    "openrouter",
+    "cli"
+  ],
+  "author": "Tahmid Hamim",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongodb": "^7.1.0",
+    "openai": "^6.17.0"
+  }
+}
